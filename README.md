@@ -12,6 +12,13 @@ Arsitektur sistem dibangun secara modular di atas **Linux WSL** menggunakan **Do
 
 ---
 
+## 🟢 Pipeline Status (Airflow Webserver)
+Berikut adalah visualisasi DAG `dag_transjakarta_etl` yang telah berhasil dieksekusi secara otomatis dengan status **Success (Berwarna Hijau)** pada seluruh task (`create_database_table` dan `run_pandas_etl_process`):
+
+![Airflow Webserver Success](airflow_success.jpeg)
+
+---
+
 ## 🏗️ System Architecture & Data Flow
 
 ```text
