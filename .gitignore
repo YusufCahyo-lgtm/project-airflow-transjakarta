@@ -1,0 +1,122 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Airflow
+airflow.db
+airflow.cfg
+unittests.cfg
+logs/
+airflow-webserver.pid
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.json
+
+# Environment variables
+.env
+.env.*
+
+# Logs
+*.log
+log/
+logs/
+
+# Database
+*.sqlite
+*.db
+
+# Temporary files
+*.tmp
+*.temp
+.coverage
+htmlcov/
+
+
+./postgres_data/
+./postgres-data-volume/
+./postgres-data-volume
+postgres-data-volume/
+postgres-db-volume/
+
+# Python cache & build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+*.manifest
+*.spec
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Airflow specific
+# Airflow’s home directory often contains logs, DAG processor queues, and temporary files
+airflow.cfg
+unittests.cfg
+webserver_config.py
+logs/
+dags/__pycache__/
+plugins/__pycache__/
+
+# SQLite database (default metadata DB)
+airflow.db
+airflow.db-journal
+
+# Scheduler & worker pid files
+scheduler.pid
+worker.pid
+
+# Temporary files
+*.swp
+*.swo
+*.tmp
+*.log
+
+# Environment variables file
+.env
+.env.*
+
+# Jupyter notebooks checkpoints (if using notebooks for prototyping)
+.ipynb_checkpoints/

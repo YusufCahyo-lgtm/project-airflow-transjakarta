@@ -1,0 +1,17 @@
+duckdb
+psycopg2-binary
+pandas
+sqlalchemy 
+google-api-core==2.24.1
+google-api-python-client==2.161.0
+google-auth==2.38.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+googleapis-common-protos==1.67.0
+gspread==6.1.4
+minio==7.2.15
+openpyxl==3.1.5
+minio
+more-itertools
+pyarrow==20.0.0
+
